@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "bedec5e2-d93f-401f-bdd4-bfedfc79b37e"
+    "analytics": "9be76960-77ac-4c7a-8e2f-702f69af4879"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular13-kb": {
+    "angular13-pivot-table-usig-scss": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular13-kb",
+            "outputPath": "dist/angular13-pivot-table-usig-scss",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -36,12 +36,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
             "stylePreprocessorOptions": {
               "includePaths": [
               "node_modules/@syncfusion"
              ]
-           }
+           },
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -80,10 +80,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular13-kb:build:production"
+              "browserTarget": "angular13-pivot-table-usig-scss:build:production"
             },
             "development": {
-              "browserTarget": "angular13-kb:build:development"
+              "browserTarget": "angular13-pivot-table-usig-scss:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +91,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular13-kb:build"
+            "browserTarget": "angular13-pivot-table-usig-scss:build"
           }
         },
         "test": {
@@ -114,7 +114,6 @@
         }
       }
     }
-    
   },
-  "defaultProject": "angular13-kb"
+  "defaultProject": "angular13-pivot-table-usig-scss"
 }

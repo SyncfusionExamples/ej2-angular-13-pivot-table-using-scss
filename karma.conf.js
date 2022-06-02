@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular13-kb'),
+      dir: require('path').join(__dirname, './coverage/angular13-pivot-table-usig-scss'),
       subdir: '.',
       reporters: [
         { type: 'html' },
